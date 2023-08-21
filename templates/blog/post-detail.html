@@ -17,4 +17,9 @@
     {% recent_posts post %}
   {% endcol %}
 {% endrow %}
+{% row %}
+  {% col %}
+    {% include "blog/post-comments.html" %}
+  {% endcol %}
+{% endrow %}
 {% endblock %}
